@@ -1,8 +1,5 @@
 # Echelle Spectrograph Calibration and Detector Analysis
 
-**Authors:**  
-- Alireza Dehghanpour 
-
 ---
 
 ## 📄 Abstract
@@ -10,11 +7,6 @@
 This project implements a sample of spectral detector calibration pipeline using raw echelle spectrograph data. The calibration includes bias and noise estimation, flat field normalization, spectral order tracing, and final wavelength calibration based on known spectral lines. The project highlights programming practice in scientific data analysis, and supports further research and development in spectroscopy and optical instrumentation.
 
 
----
-
-![](./spline_fit.png)  
-
----
 
 ## 📚 Overview
 
@@ -96,6 +88,11 @@ Optional plotting and result outputs are saved in `plots/` and `results/`.
 - matplotlib
 - pandas
 - scikit-learn
+
+
+---
+
+![](./spline_fit.png)  
 
 ---
 
