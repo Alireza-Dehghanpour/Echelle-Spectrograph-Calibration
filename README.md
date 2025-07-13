@@ -3,7 +3,12 @@
 **Authors:**  
 - Alireza Dehghanpour 
 
-This repository contains a sample processing pipeline for calibrating and analyzing detector data from an echelle spectrograph. The pipeline includes detector correction, spectral order extraction, wavelength calibration, and pixel-level sensitivity mapping.
+---
+
+## 📄 Abstract
+
+This project implements a sample of spectral detector calibration pipeline using raw echelle spectrograph data. The calibration includes bias and noise estimation, flat field normalization, spectral order tracing, and final wavelength calibration based on known spectral lines. The project highlights programming practice in scientific data analysis, and supports further research and development in spectroscopy and optical instrumentation.
+
 
 ---
 
@@ -37,13 +42,7 @@ This repository contains a sample processing pipeline for calibrating and analyz
 8. **H (Planned): Uncertainty-Based Calibration Refinement**  
    Improve wavelength mapping using noise-based weighting from Task B.
 
----
 
-## 📄 Abstract
-
-This project implements a sample of spectral detector calibration pipeline using raw echelle spectrograph data. The calibration includes bias and noise estimation, flat field normalization, spectral order tracing, and final wavelength calibration based on known spectral lines. The project highlights programming practice in scientific data analysis, and supports further research and development in spectroscopy and optical instrumentation.
-
----
 
 ## 📁 Repository Structure
 
